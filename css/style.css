@@ -1,0 +1,38 @@
+/* ここから下に記載していく */
+*{
+    box-sizing: border-box;
+  }
+
+  .all {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 231, 232);
+}
+
+#button {
+    height: 37px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 12px;
+    width: 20%;
+    margin: 20px auto;
+    color: white;
+    cursor: pointer;
+
+}
+
+.certain {
+    background-color: rgb(238, 231, 232);
+    height: 400px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+#ex {
+    height: 42px;
+    font-size: 24px;
+    width: 16%;
+    text-align: center;
+    padding-top: 10px;
+}
+
