@@ -3,6 +3,8 @@
     box-sizing: border-box;
   }
 
+
+
   /* body全体のフォント指定 */
   body {
     line-height: 1;
@@ -67,9 +69,61 @@ span.t11 {
     width: 33%;
     font-size: 20px;
     margin: 0 0 0 30px;
-    padding-top: 25px;
+    padding-top: 21px;
     cursor: pointer;
+}
 
+span.t112 {
+    height: 34px;
+    width: 55px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 6px;
+    
+}
+   
+span.t112:hover {
+    height: 34px;
+    width: 55px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 6px;
+    opacity: 0.6;
+}
+
+
+span.t113 {
+    height: 34px;
+    width: 55px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 6px;
+}
+   
+span.t113:hover {
+    height: 34px;
+    width: 55px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 6px;
+    opacity: 0.6;
+}
+
+span.t114 {
+    height: 34px;
+    width: 114px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 6px;
+}
+   
+span.t114:hover {
+    height: 34px;
+    width: 114px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 6px;
+    opacity: 0.6;
 }
    
 
@@ -82,8 +136,9 @@ span.t12 {
     text-align: center;
     font-family: "Orbitron", sans-serif;
     font-weight: 600;
-  
 }
+
+
 
 span.t13 {
     width: 33%;
@@ -92,7 +147,6 @@ span.t13 {
     padding-top: 17px;
     text-align: right;
     cursor: pointer;
-    
 }
 
 span.t131 {
@@ -107,6 +161,7 @@ span.t131 {
     color: black;
     font-size: 14px;
     cursor: pointer;
+    
 }
 
 span.t131:hover {
@@ -132,7 +187,7 @@ span.t131:hover {
     height: 30px;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     width: 28%;
 }
 
@@ -142,7 +197,7 @@ span.t31 {
     border-radius: 35px;
     height: 44px;
     width: 96px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 18px 0px 0px;
     text-align: center;
     padding-top: 14px;
     font-size: 15px;
