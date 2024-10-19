@@ -17,19 +17,7 @@
 
 <body>
   <!-- ここから下にコードを書く -->
-  <div class="all">
-    <div data-brand="porsche"id="car1">車1</div>
-    <div data-brand="mercedes"id="car2">車2</div>
-    <div data-brand="audi"id="car3">車3</div>
-    <div data-brand="bmw"id="car4">車4</div>
-    <div data-brand="bmw"id="car5">車5</div>
-    <div data-brand="porsche"id="car6">車6</div>
-    <div data-brand="porsche"id="car7">車7</div>
-    <div data-brand="audi"id="car8">車8</div>
-    <div data-brand="audi"id="car9">車9</div>
-    <div data-brand="mercedes" id="car10">車10</div>
 
-  </div>
 
   <div class="check">
     <div class="co2521">
@@ -60,17 +48,22 @@
 
 
 <script>
+window.onload = function(){
+  alert("ようこそ");
+}
+
+
   const listall = [ 
-    {label: "車1", brand: "porsche"},
-    {label: "車2", brand: "mercedes"},
-    {label: "車3", brand: "audi"},
-    {label: "車4", brand: "bmw"},
-    {label: "車5", brand: "bmw"},
-    {label: "車6", brand: "porsche"},
-    {label: "車7", brand: "porsche"},
-    {label: "車8", brand: "audi"},
-    {label: "車9", brand: "audi"},
-    {label: "車10", brand: "mercedes"}
+    {label: "車1", brand: "porsche", madein:2020},
+    {label: "車2", brand: "mercedes", madein:2020},
+    {label: "車3", brand: "audi", madein:2020},
+    {label: "車4", brand: "bmw", madein:2020},
+    {label: "車5", brand: "bmw", madein:2020},
+    {label: "車6", brand: "porsche", madein:2020},
+    {label: "車7", brand: "porsche", madein:2020},
+    {label: "車8", brand: "audi", madein:2020},
+    {label: "車9", brand: "audi", madein:2020},
+    {label: "車10", brand: "mercedes", madein:2020}
   ];
 
   document.getElementById("button").addEventListener("click", function() {
@@ -107,6 +100,16 @@
       document.getElementById("list4").innerHTML = list4.join(", ");
     }
   });
+
+document.getElementById("button").addEventListener("click",function(){
+
+
+
+
+
+})
+
+
 </script>
 </body>
 
